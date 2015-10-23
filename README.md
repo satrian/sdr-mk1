@@ -10,7 +10,7 @@ Note, that these instructions are valid for Windows environment. While the gener
  * You should now see new USB device appearing. The appropriate driver came with FLIP installation, so if prompted for a driver (or selecting manually), you should point it to the FLIP catalog USB subdirectory (c:\program files\Atmel\Flip 3.4.2\USB on my case). After installing the driver you should have the new USB device named AT90USB1287 present on the device manager.
  * Run the FLIP utility, press the USB-connector-like icon and choose USB as commnucation medium. You should see no error messages and FLIP should recognise the chip, resulting with the screen like that:
 
-https://github.com/satrian/sdr-mk1/wiki/flip.JPG
+![FLIP](satrian.github.com/sdr-mk1/master/wiki/flip.JPG)
 
  * From File menu load the Hex file and press the "Run" buttom on the bottom left. The update and verify progress bars should appear for short time, then the upgrade is finished. There is no "success" message or anything.
  * Plug the USB cable off and re-connect. If after 1-2sec. the two green leds are lit, then the upgrade was success.
