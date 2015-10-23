@@ -2,7 +2,7 @@
 
 Note, that these instructions are valid for Windows environment. While the general principle is the same for Linux, I have no instructions for upgrading the firmware under Linux. It would be great, if anyone familiar with the procedure would be kind to write Linux-specific comments!
 
- * First, you need to download [http://www.atmel.com/dyn/products/tools_card.asp?tool_id=3886 Atmel FLIP utility]. You do not have to download the bootloaders, the AT90USB1287 chip has bootloader already installed.
+ * First, you need to download [Atmel FLIP utility](http://www.atmel.com/tools/FLIP.aspx "Atmel FLIP utility"). You do not have to download the bootloaders, the AT90USB1287 chip has bootloader already installed.
  * Download the SDR_MK1.hex firmware and .INF file from download section
  * Install FLIP
  * Connect the SDR MK1 radio board to the computer
